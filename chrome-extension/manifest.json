@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Capture full page",
+  "version": "0.1.0",
+  "description": "An exact full-page picture of this tab, into Capture's library and the clipboard.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1UV2RVcBfLlCHWBuw3QvcVcInr3igqMw1X5l46txPpAgQMov7iCkJB5mUDlpWxjav2eBWxBrJ6Epp4ohxGERpAvcXGt7uNgetop3H/aZoOyRw76JrWrDYSZC5lVbIlcsOWRG+wwxtyqscZKArKZeJVgeAD/fCLQImvDDDxjrhqUCilBDWHhrQCCuF2l8/mqXbyS//fnpYpRFYYaEtIveSIY8VQKrb/mZSEpFe2qdXIpW/ZooDMG/ZB90Nchbv2Ug4miA4iZzyvez2vyQlwvYhdt5Ae0zGjJ+yIRXLlKkPiaoOQt4RV7GHp9rdFDdcE3zA2tL57hLAiajGMlkg+vmOwIDAQAB",
+  "permissions": ["debugger", "nativeMessaging"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Capture full page" },
+  "commands": {
+    "_execute_action": { "suggested_key": { "default": "Alt+Shift+P", "mac": "MacCtrl+Shift+P" }, "description": "Capture full page" }
+  }
+}

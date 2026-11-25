@@ -1,0 +1,20 @@
+DesignKit
+
+This module is a native SwiftUI port of the design system of Intent
+(https://github.com/intent-hq/cloudlands-fe), licensed under the Apache License,
+Version 2.0. Copyright 2026 The Intent Authors.
+
+Ported from that project: color role values (src/lib/styles/tokens.css), the type
+scale, spacing, control sizes, radii, elevation and motion tiers, component recipes
+(button, badge, tabs, text entry, rows, menus, settings, screen states) and the
+written rules in docs/DESIGN_SYSTEM.md. They were translated from CSS/Svelte to
+Swift; no source files were copied verbatim. Changes: reimplemented for SwiftUI on
+macOS, adapted to native menus and windows, and reduced to what Capture uses.
+
+The Intent name, logo, loader mark and sounds are not used and are not covered by
+this port. A copy of the Apache License 2.0 is at
+https://www.apache.org/licenses/LICENSE-2.0
+
+Bundled fonts (Resources/Fonts), each under the SIL Open Font License 1.1:
+  Inter 4.1 (rsms/inter), Source Serif 4 4.005 (adobe-fonts/source-serif),
+  JetBrains Mono 2.304 (JetBrains/JetBrainsMono). Licenses are beside the fonts.
